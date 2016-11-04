@@ -1,7 +1,6 @@
 var React = require('react');
 import AutoLinkText from 'react-autolink-text';
 
-var tmpPlayer = require('tmpPlayer');
 
 var Ban = React.createClass({
     render: function() {
