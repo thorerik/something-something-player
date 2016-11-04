@@ -15,6 +15,7 @@
     "axios": "^0.15.2",
     "express": "^4.14.0",
     "react": "^0.14.7",
+    "react-autolink-text": "^2.0.0",
     "react-dom": "^0.14.7",
     "react-router": "^2.0.0"
   },

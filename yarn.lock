@@ -3508,9 +3508,19 @@ react-addons-test-utils@^0.14.7:
   version "0.14.8"
   resolved "https://registry.yarnpkg.com/react-addons-test-utils/-/react-addons-test-utils-0.14.8.tgz#dcddc039e71fc3c81d80338e53a3714f14d41e1f"
 
+react-autolink-text:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/react-autolink-text/-/react-autolink-text-2.0.0.tgz#0a9163502336c2f18f30eb9d35568b8a6af27e30"
+  dependencies:
+    react-pure-render "^1.0.2"
+
 react-dom@^0.14.7:
   version "0.14.8"
   resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-0.14.8.tgz#0f1c547514263f771bd31814a739e5306575069e"
+
+react-pure-render@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/react-pure-render/-/react-pure-render-1.0.2.tgz#9d8a928c7f2c37513c2d064e57b3e3c356e9fabb"
 
 react-router@^2.0.0:
   version "2.8.1"

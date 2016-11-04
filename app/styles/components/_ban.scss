@@ -1,0 +1,19 @@
+div.ban-card {
+    div:nth-child(2) { 
+        border: 2px solid $light-blue;
+        border-radius: 5px;
+        margin: 0.5rem 0;
+         h1 {
+             font-size: 1.1rem;
+         }
+         h2 {
+             font-size: 1rem;
+         }
+         h3 {
+             font-size: 0.9rem;
+         }
+         h4 {
+             font-size: 0.8rem;
+         }
+     }
+}

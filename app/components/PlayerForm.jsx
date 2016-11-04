@@ -1,6 +1,6 @@
 var React = require('react');
 
-var WeaterForm = React.createClass({
+var PlayerForm = React.createClass({
   onFormSubmit: function(e) {
     e.preventDefault();
 
@@ -25,4 +25,4 @@ var WeaterForm = React.createClass({
     );
   }
 });
-module.exports = WeaterForm;
+module.exports = PlayerForm;

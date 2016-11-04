@@ -1,34 +1,12 @@
 var React = require('react');
 
 var tmpPlayer = require('tmpPlayer');
+var BansList = require('BansList');
 
 var PlayerDetails = React.createClass({
     render: function() {
         var {player} = this.props;
         var {id, avatar, groupName, joinDate, name} = player;
-
-        function renderBanList(id) {
-            var that = this;
-            var bans = tmpPlayer.getBans(id).then(function (bans) {
-                if (bans.length > 0) {
-                    that.setState({
-                        bans: bans
-                    });
-                }
-            }, function (e) {
-                console.log(e);
-            });
-            var b;
-            this.state.bans.forEach(function(element) {
-                b += <div>{element}</div>
-            }, this);
-            
-            return (
-                <div className="row">
-                    {b}
-                </div>
-            );
-        }
 
         return (
             <div>
@@ -42,7 +20,7 @@ var PlayerDetails = React.createClass({
                         <h5 className="text-center">Joined {joinDate}</h5>
                     </div>
                 </div>
-                {renderBanList(id)}
+                <BansList player={player}/>
             </div>
         );
     }

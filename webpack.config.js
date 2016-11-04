@@ -29,6 +29,8 @@ module.exports = {
       Player: 'app/components/Player.jsx',
       PlayerDetails: 'app/components/PlayerDetails.jsx',
       PlayerForm: 'app/components/PlayerForm.jsx',
+      BansList: 'app/components/BansList.jsx',
+      Ban: 'app/components/Ban.jsx',
       tmpPlayer: 'app/api/tmpPlayer.jsx',
       applicationStyles: 'app/styles/app.scss',
     },
