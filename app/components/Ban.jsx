@@ -1,5 +1,5 @@
 var React = require('react');
-import AutoLinkText from 'react-autolink-text';
+var AutoLinkText = require('react-autolink-text');
 
 
 var Ban = React.createClass({
