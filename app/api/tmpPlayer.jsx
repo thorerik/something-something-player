@@ -7,8 +7,8 @@ module.exports = {
     var requestUrl = `${TRUCKERSMP_API_ENDPOINT}/player/${id}`;
 
     return axios.get(requestUrl).then(function (res) {
-      if (res.error) {
-        throw new Error(res.response);
+      if (res.data.error) {
+        throw new Error(res.data.response);
       } else {
         return res.data.response;
       }

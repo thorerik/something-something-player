@@ -8,7 +8,7 @@ var PlayerForm = React.createClass({
     if (player.length > 0) {
       this.refs.player.value = "";
       this.props.onSearch(player);
-    }
+    } 
   },
   render: function() {
     return (
